@@ -14,8 +14,28 @@ public class Board {
 		for (int r=0;r<10;r++) {
 			//for loop for the columns of the board
 			for (int c = 0; c <10; c++) {
-				//make all rows and columns dashes (array of dashes)
-				result += player1Board[r][c] + "-";
+				//prints out all the rows and columns separated by a space
+				result += player1Board[r][c] + " ";
+			}
+			//new line for each row
+			result += "\n";
+		}
+		
+		//print player2's board
+		//for loop for the rows of the board
+		for (int r=0;r<10;r++) {
+			//for loop for the columns of the board
+			for (int c = 0; c <10; c++) {
+				//prints out all the rows and columns separated by a space
+				result += player2Board[r][c] + " ";
+			}
+			//new line for each row
+			result += "\n";
+		}
+		
+		return result;
+	}
+}
 			
 		
 		
