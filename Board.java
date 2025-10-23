@@ -62,9 +62,11 @@ public class Board {
 	 * inside of this loop also check to make sure that the ship doesn't overlap with other ships or go off the grid
 	 * 		if the ship goes off the grid meaning that its starting location + its length is > 10, return false
 	 * 		if the ship's location already has a "b" that means another ship is already there and so return false
-	 * if the above tests return false, don't place the ship and print out an error message telling the user to choose anothe rlocation
+	 * if the above tests return false, don't place the ship and print out an error message telling the user to choose anothe location
 	 * if the above tests return true, fill the spaces the user choose with "b" to represent that a boat now exists
 	 * print out the new grid and a success message for the user
+	 */
+	 
 }
 			
 		
