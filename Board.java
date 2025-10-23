@@ -53,7 +53,9 @@ public class Board {
 		System.out.println("First we will place your carrier ship of length 5.");
 		System.out.println("For each of the Type two integer numbers with no space between them. A value from 1-10 for the row you are placing the ship. A value from 1-10 for the column you are placing the ship");
 			
-		
+	/* create a method called placeShip
+	 * write a constructor of type boolead to see the row, column, len, and whether the boolean horizontal is true or false
+	 * if horizontal is true, the r
 }
 			
 		
