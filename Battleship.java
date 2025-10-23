@@ -5,7 +5,6 @@ public class Battleship {
 	System.out.print("Type R to access the rules of this game. Type P to play: ");
 	
 	Scanner userInput = new Scanner(System.in)
-	//testing change
 	char play = scan.nextChar;
 	
 	if (play = 'R') {
