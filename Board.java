@@ -53,9 +53,18 @@ public class Board {
 		System.out.println("First we will place your carrier ship of length 5.");
 		System.out.println("For each of the Type two integer numbers with no space between them. A value from 1-10 for the row you are placing the ship. A value from 1-10 for the column you are placing the ship");
 			
-	/* create a method called placeShip
-	 * write a constructor of type boolead to see the row, column, len, and whether the boolean horizontal is true or false
-	 * if horizontal is true, the r
+	/* create a method called placeShips()
+	 * write a method of type boolean to take in ints row, column, and len, and a boolean horizontal
+	 * use an if statement to check if the ship is horizontal (true) or vertical (horizontal is false)
+	 * next create a loop that iterates through each part of the ship on the grid
+	 * 		if horizontal is true, the loop should move sideways meaning that the columns are increasing (iterating by 1)
+	 * 		if horizontal is false (the ship is vertical), the loop should move downwards meaning that the rows are increasing (iterating by 1)
+	 * inside of this loop also check to make sure that the ship doesn't overlap with other ships or go off the grid
+	 * 		if the ship goes off the grid meaning that its starting location + its length is > 10, return false
+	 * 		if the ship's location already has a "b" that means another ship is already there and so return false
+	 * if the above tests return false, don't place the ship and print out an error message telling the user to choose anothe rlocation
+	 * if the above tests return true, fill the spaces the user choose with "b" to represent that a boat now exists
+	 * print out the new grid and a success message for the user
 }
 			
 		
